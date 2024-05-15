@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina de inicio - Netfix</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/images/netflix.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="mainContenedor">
+        <nav class="navbar ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/nflxlogo.png" alt="Logo Netfix" width="148px" height="55px">
+                </a>
+                <div class="d-flex">
+                    <div class="dropdown btn idioma">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Español
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">Español</a></li>
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn boton">
+                        <button type="button" class="btn">Iniciar Sesión</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container contenedor">
+            <div class="titulos">
+                <h1>Peliculas y series ilimitadas y mucho más</h1>
+                <h3>Disfruta donde quieras. Cancela cuando quieras.</h3>
+                <p>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
+            </div>
+            <form class="row g-3 d-flex justify-content-center m-1 mail">
+                <div class="col-auto">
+                    <label for="exampleFormControlInput1" class="visually-hidden">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+    
+                <div class="col-auto botonMail">
+                    <button type="submit" class="btn">Comenzar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="secondContenedor">
+        <div class="row d-flex justify-content-center m-auto info">
+            <div class="col-6 d-inline-block align-content-center">
+                <h2>Disfruta en tu TV</h2>
+                <p>Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</p>
+            </div>
+            <div class="col-6 infoImagen">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="Hombre mirando tele">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+
+
+.mainContenedor{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../../images/wp1917119-netflix-wallpapers.jpg);
+}
+
+.contenedor{
+    color: white;
+    padding:10%;
+}
+
+.titulos {
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.secondContenedor{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-color: gray;
+}
+
+.info{
+    color: white;
+    text-align: center;
+}
+
+.infoImagen img{
+    height: 300px;
+    width: 400px; ;
+}

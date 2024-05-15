@@ -1,0 +1,34 @@
+.botonMail button{
+    align-items: center;
+    background-color:#e50914 ;
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    fill: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 24px;
+    width: 192px;
+    height: 56px;
+}
+
+.botonMail button:hover{
+    background-color: #e50914;
+    background-image: linear-gradient(rgb(0 0 0/20%) 0 0)
+}
+
+.mail input{
+    height: 56px;
+    width: 386px;
+    color: #fff;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.mail input::placeholder{
+    color: #fff;
+} 
+
+
