@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: COLUMN;
     margin: 0;
-    padding: 0;
+    padding-bottom: 0px;
 }
 
 .titulos h1 {
@@ -38,16 +38,139 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    border-color: gray;
+    border-color: #232323;
+    padding: 195px;
+    align-content: center;
+    align-items: center;
+    border-style:solid;
 }
 
 .info {
     color: white;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
-.infoImagen img {
+.secondContenedor img {
     height: 300px;
     width: 400px;
-    ;
+}
+.secondContenedor h2{
+    font-weight: 900;
+    text-align: left;
+    font-size: 48px;
+}
+
+.secondContenedor p{
+    text-align: left;
+    font-size: 24px;
+}
+
+.thirdContenedor{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-color: #232323;
+    padding: 175px;
+    align-content: center;
+    align-items: center;
+    border-style:solid;
+}
+
+.thirdContenedor h2{
+    font-weight: 900;
+    text-align: left;
+    font-size: 48px;
+}
+
+.thirdContenedor p{
+    text-align: left;
+    font-size: 24px;
+}
+
+.thirdContenedor img{
+    width: 600px;
+    height: 500px;
+}
+
+.fourthContenedor{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-color: #232323;
+    padding: 175px;
+    align-content: center;
+    align-items: center;
+    border-style:solid;
+}
+
+.fourthContenedor h2{
+    font-weight: 900;
+    text-align: left;
+    font-size: 48px;
+}
+
+.fourthContenedor p{
+    text-align: left;
+    font-size: 24px;
+}
+
+.fourthContenedor img{
+    width: 700px;
+    height: 500px;
+}
+
+
+.fifthContenedor{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-color: #232323;
+    padding: 175px;
+    align-content: center;
+    align-items: center;
+    border-style:solid;
+}
+
+.fifthContenedor h2{
+    font-weight: 900;
+    text-align: left;
+    font-size: 48px;
+}
+
+.fifthContenedor p{
+    text-align: left;
+    font-size: 24px;
+}
+
+.fifthContenedor img{
+    width: 700px;
+    height: 500px;
+}
+
+.sixthContenedor{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-color: #232323;
+    padding: 175px;
+    align-content: center;
+    align-items: center;
+    border-style:solid;
+}
+
+.sixthContenedor h2{
+    font-weight: 900;
+    text-align: left;
+    font-size: 48px;
+    color: white;
+    padding: 20px;
+
 }

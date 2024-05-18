@@ -76,6 +76,48 @@
   justify-content: center;
 }
 
+.navbar {
+  margin: 0px 146.422px;
+  padding: 24px 48px;
+}
+
+.textoAccordion {
+  text-align: left;
+}
+
+.accordion {
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  padding: 24px;
+}
+
+.accordion-body {
+  background-color: #414141;
+  color: white;
+}
+
+.accordion-header {
+  background-color: #414141;
+}
+
+.accordion-button {
+  background-color: #414141;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-color: #232323;
+  align-content: center;
+  align-items: center;
+  border-style: solid;
+  width: auto;
+  color: white;
+}
+
 .mainContenedor {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/41c789f0-7df5-4219-94c6-c66fe500590a/2856dcf9-ec3c-4fc7-8e0d-a2e398e9509a/AR-es-20240513-popsignuptwoweeks-perspective_alpha_website_small.jpg);
 }
@@ -92,7 +134,7 @@
   display: flex;
   flex-direction: COLUMN;
   margin: 0;
-  padding: 0;
+  padding-bottom: 0px;
 }
 
 .titulos h1 {
@@ -116,17 +158,140 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  border-color: gray;
+  border-color: #232323;
+  padding: 195px;
+  align-content: center;
+  align-items: center;
+  border-style: solid;
 }
 
 .info {
   color: white;
+  display: flex;
   text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
-.infoImagen img {
+.secondContenedor img {
   height: 300px;
   width: 400px;
+}
+
+.secondContenedor h2 {
+  font-weight: 900;
+  text-align: left;
+  font-size: 48px;
+}
+
+.secondContenedor p {
+  text-align: left;
+  font-size: 24px;
+}
+
+.thirdContenedor {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-color: #232323;
+  padding: 175px;
+  align-content: center;
+  align-items: center;
+  border-style: solid;
+}
+
+.thirdContenedor h2 {
+  font-weight: 900;
+  text-align: left;
+  font-size: 48px;
+}
+
+.thirdContenedor p {
+  text-align: left;
+  font-size: 24px;
+}
+
+.thirdContenedor img {
+  width: 600px;
+  height: 500px;
+}
+
+.fourthContenedor {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-color: #232323;
+  padding: 175px;
+  align-content: center;
+  align-items: center;
+  border-style: solid;
+}
+
+.fourthContenedor h2 {
+  font-weight: 900;
+  text-align: left;
+  font-size: 48px;
+}
+
+.fourthContenedor p {
+  text-align: left;
+  font-size: 24px;
+}
+
+.fourthContenedor img {
+  width: 700px;
+  height: 500px;
+}
+
+.fifthContenedor {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-color: #232323;
+  padding: 175px;
+  align-content: center;
+  align-items: center;
+  border-style: solid;
+}
+
+.fifthContenedor h2 {
+  font-weight: 900;
+  text-align: left;
+  font-size: 48px;
+}
+
+.fifthContenedor p {
+  text-align: left;
+  font-size: 24px;
+}
+
+.fifthContenedor img {
+  width: 700px;
+  height: 500px;
+}
+
+.sixthContenedor {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-color: #232323;
+  padding: 175px;
+  align-content: center;
+  align-items: center;
+  border-style: solid;
+}
+
+.sixthContenedor h2 {
+  font-weight: 900;
+  text-align: left;
+  font-size: 48px;
+  color: white;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
