@@ -22,6 +22,12 @@
   height: 35px;
 }
 
+.boton button:hover {
+  background-color: #e50914;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+  color: white;
+}
+
 .idioma button {
   align-items: center;
   color: #fff;
