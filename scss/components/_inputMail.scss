@@ -1,18 +1,16 @@
+
 .botonMail button{
-    align-items: center;
     background-color:#e50914 ;
     border-radius: 4px;
     color: #fff;
-    display: flex;
-    text-align: center;
     fill: #fff;
     font-size: 24px;
     font-weight: 500;
-    justify-content: center;
     line-height: 24px;
     width: 192px;
     height: 56px;
 }
+
 
 .botonMail button:hover{
     background-color: #e50914;
@@ -31,4 +29,19 @@
     color: #fff;
 } 
 
+.mailInput input:focus{
+    background-color: black;
+    color: #fff;
+    outline: none;
+}
+
+.mailInput{
+    display: flex;
+    justify-content: center;
+}
+
+.botonMail{
+    display: flex;
+    justify-content: center;
+}
 

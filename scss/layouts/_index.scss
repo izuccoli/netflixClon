@@ -1,22 +1,39 @@
-
-
-.mainContenedor{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../../images/wp1917119-netflix-wallpapers.jpg);
+.mainContenedor {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/41c789f0-7df5-4219-94c6-c66fe500590a/2856dcf9-ec3c-4fc7-8e0d-a2e398e9509a/AR-es-20240513-popsignuptwoweeks-perspective_alpha_website_small.jpg);
 }
 
-.contenedor{
+.contenedor {
     color: white;
-    padding:10%;
+    padding: 20vh;
 }
 
 .titulos {
-    display: grid;
     justify-content: center;
     gap: 30px;
     text-align: center;
+    display: flex;
+    flex-direction: COLUMN;
+    margin: 0;
+    padding: 0;
 }
 
-.secondContenedor{
+.titulos h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.titulos h3 {
+    font-size: 24px;
+    margin: -15px
+}
+
+.titulos p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 25px;
+}
+
+.secondContenedor {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -24,12 +41,13 @@
     border-color: gray;
 }
 
-.info{
+.info {
     color: white;
     text-align: center;
 }
 
-.infoImagen img{
+.infoImagen img {
     height: 300px;
-    width: 400px; ;
+    width: 400px;
+    ;
 }
